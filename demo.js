@@ -180,7 +180,6 @@ function init() {
 			<br/>
 			<div id="subsongs" style="display:none">Subsongs: <select id="subsong" onchange="player.selectSubsong(this.value)"></select></div>
 			</div>
-		<canvas id="myCanvas"></canvas>
 		<kk-rows id="songSel" cb="songSelCallback" hide="0" head="Tracker|Artist/Year|Song|KB" css="td:nth-child(5){text-align:right}"></kk-rows>
 		<!-- for audio playback policy -->
 		<div id="audioModal">👉 💻 👂 🎶</div>`
