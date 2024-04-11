@@ -51,7 +51,7 @@ function updateDuration() {
 function initPlayer() {
 	window.player = new ChiptuneJsPlayer({repeatCount: 0})
 	player.gain.gain.value = 0.5
-	window.viz = new Visualizer(player.gain, myCanvas, {fft:11})
+	// window.viz = new Visualizer(player.gain, myCanvas, {fft:11})
 
 	// listen to events
 	player.onEnded((ev) => {
